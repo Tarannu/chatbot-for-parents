@@ -1,0 +1,217 @@
+{
+  "id": "1a90668d-ed4d-4407-bad1-d050c0ec7a3f",
+  "name": "COVIDsymptom",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "virus",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$virus",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "covid",
+          "userDefined": true,
+          "alias": "virus",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "a1717ca4-b85b-4e0d-ab48-5d7e27eddd96",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do I have the ",
+          "userDefined": false
+        },
+        {
+          "text": "Corona Virus",
+          "userDefined": true,
+          "alias": "virus",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "6db0db00-e551-4b05-9115-28be9a00e4ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do I have the ",
+          "userDefined": false
+        },
+        {
+          "text": "Corona Virus",
+          "userDefined": true,
+          "alias": "virus",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3d6e2cb0-5617-45ba-94a3-557da2e9c25c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do you think I have the ",
+          "userDefined": false
+        },
+        {
+          "text": "corona virus",
+          "userDefined": true,
+          "alias": "virus",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "ae738aa5-8e7b-41a9-b145-31a79520fd83",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Did I catch ",
+          "userDefined": false
+        },
+        {
+          "text": "corona virus",
+          "userDefined": true,
+          "alias": "virus",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e5568be2-3ba8-4c06-840a-070f86fad316",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I suspect I am infected by ",
+          "userDefined": false
+        },
+        {
+          "text": "covid-19",
+          "userDefined": true,
+          "alias": "virus",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "3e4d1136-2e84-4393-b3de-b472c0d5b5e6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I feel like I got the ",
+          "userDefined": false
+        },
+        {
+          "text": "corona flu",
+          "userDefined": true,
+          "alias": "virus",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "424856dc-0cc2-4429-9730-d57673276414",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hi, I feel like I have the ",
+          "userDefined": false
+        },
+        {
+          "text": "corona virus",
+          "userDefined": true,
+          "alias": "virus",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "f7f044a0-ce91-407a-a304-4248ce9474e0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do I have ",
+          "userDefined": false
+        },
+        {
+          "text": "covid",
+          "userDefined": true,
+          "alias": "virus",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c88c41b3-d2bf-45a0-b78b-657dc201c8ae",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
